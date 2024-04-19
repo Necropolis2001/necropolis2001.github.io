@@ -1,0 +1,55 @@
+body {
+  background-color: #3498db; /* Change this hex color code to your preferred shade of blue */
+  color: #fff; /* Text color for better readability on a blue background */
+}
+
+
+#projects {
+  
+  
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  text-shadow: 0 0 5px #ffffff, 0 0 20px #000, 0 0 30px #000;
+}
+
+#projects h1 {
+  --fontSize: 60px;
+  --lineHeight: 80px;
+  width: auto;
+  height: calc(2 * var(--lineHeight));
+  line-height: var(--lineHeight);
+  margin: calc(50vh - var(--lineHeight)) auto 0;
+  font-size: var(--fontSize);
+}
+
+#projects a {
+  margin-top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+}
+
+.button-container {
+  text-align: center;
+  margin-top: 50px;
+}
+.button {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 20px 40px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #14b6da;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+.button:hover {
+  background-color: #13a1c9;
+}
